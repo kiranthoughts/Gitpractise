@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-23T18:50:13 BST" name="Suite" finished-at="2020-09-23T18:52:03 BST" duration-ms="109270">
+    <groups>
+    </groups>
+    <test started-at="2020-09-23T18:50:13 BST" name="validationoftext" finished-at="2020-09-23T18:51:15 BST" duration-ms="61794">
+      <class name="loginPage.validTextLandPage">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.validTextLandPage@5a9d6f02]" started-at="2020-09-23T18:50:13 BST" name="starter" finished-at="2020-09-23T18:51:06 BST" duration-ms="52532" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage4()[pri:0, instance:loginPage.validTextLandPage@5a9d6f02]" started-at="2020-09-23T18:51:06 BST" name="HPage4" finished-at="2020-09-23T18:51:06 BST" duration-ms="440" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage4 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.validTextLandPage@5a9d6f02]" started-at="2020-09-23T18:51:06 BST" name="finishoff" finished-at="2020-09-23T18:51:15 BST" duration-ms="8778" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.validTextLandPage -->
+    </test> <!-- validationoftext -->
+    <test started-at="2020-09-23T18:50:13 BST" name="validation of customers" finished-at="2020-09-23T18:52:03 BST" duration-ms="109270">
+      <class name="loginPage.Datadrivenhomepage">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:50:14 BST" name="starter" finished-at="2020-09-23T18:51:05 BST" duration-ms="50986" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:05 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-23T18:51:14 BST" duration-ms="9255" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:14 BST" name="finishoff" finished-at="2020-09-23T18:51:15 BST" duration-ms="1485" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:15 BST" name="starter" finished-at="2020-09-23T18:51:39 BST" duration-ms="23557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:39 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-23T18:51:41 BST" duration-ms="2620" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghi@jkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:41 BST" name="finishoff" finished-at="2020-09-23T18:51:42 BST" duration-ms="276" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:51:42 BST" name="starter" finished-at="2020-09-23T18:52:00 BST" duration-ms="18426" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:52:00 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-23T18:52:02 BST" duration-ms="2120" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mno@pqr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@30b19518]" started-at="2020-09-23T18:52:02 BST" name="finishoff" finished-at="2020-09-23T18:52:03 BST" duration-ms="437" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.Datadrivenhomepage -->
+    </test> <!-- validation of customers -->
+  </suite> <!-- Suite -->
+</testng-results>

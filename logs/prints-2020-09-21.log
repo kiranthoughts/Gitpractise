@@ -1,0 +1,16 @@
+22:08:33.456 [TestNG-tests-2] INFO  resources.baseURL - browser opened
+22:08:41.701 [TestNG-tests-3] INFO  resources.baseURL - url clicked
+22:08:43.251 [TestNG-tests-1] INFO  resources.baseURL - url clicked
+22:08:43.751 [TestNG-tests-2] INFO  resources.baseURL - url clicked
+22:08:50.625 [TestNG-tests-3] INFO  resources.baseURL - popup closed
+22:08:50.750 [TestNG-tests-3] INFO  resources.baseURL - correct message displayed
+22:08:51.766 [TestNG-tests-1] INFO  resources.baseURL - popup closed
+22:08:52.079 [TestNG-tests-2] INFO  resources.baseURL - popup closed
+22:08:54.057 [TestNG-tests-1] INFO  resources.baseURL - login clicked
+22:08:54.307 [TestNG-tests-1] INFO  resources.baseURL - username typed
+22:08:54.352 [TestNG-tests-2] INFO  resources.baseURL - usernameHP typed
+22:08:54.396 [TestNG-tests-2] INFO  resources.baseURL - email entered
+22:08:54.494 [TestNG-tests-1] INFO  resources.baseURL - password typed
+22:08:54.794 [TestNG-tests-2] INFO  resources.baseURL - passwordHP typed
+22:08:55.310 [TestNG-tests-1] INFO  resources.baseURL - invalid customer
+22:08:55.675 [TestNG-tests-2] INFO  resources.baseURL - sign in clicked

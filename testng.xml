@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="tests">
+ 
+    <listeners>
+       
+       	<listener class-name="loginPage.listener"/>
+       
+      </listeners>
+    
+             
+      
+            
+     <test name="validation of customers">
+    	<classes>
+      		<class name="loginPage.Datadrivenhomepage"/>
+       </classes>
+  	</test> 
+      
+      <test name="home page">
+    	<classes>
+      		<class name="loginPage.homepage"/>
+       </classes>
+     </test>
+       <test name="validationoftext">
+      <classes>
+      	<class name="loginPage.validTextLandPage"/>
+      </classes>
+      </test>
+       
+ </suite> <!-- Suite -->

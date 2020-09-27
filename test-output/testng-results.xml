@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="6" failed="1" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-09-21T18:11:47 BST" name="Default suite" finished-at="2020-09-21T18:13:52 BST" duration-ms="125240">
+    <groups>
+    </groups>
+    <test started-at="2020-09-21T18:11:47 BST" name="Default test" finished-at="2020-09-21T18:13:52 BST" duration-ms="125240">
+      <class name="loginPage.validTextLandPage">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.validTextLandPage@5b07730f]" started-at="2020-09-21T18:11:47 BST" name="starter" finished-at="2020-09-21T18:12:04 BST" duration-ms="16637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage4()[pri:0, instance:loginPage.validTextLandPage@5b07730f]" started-at="2020-09-21T18:12:04 BST" name="HPage4" finished-at="2020-09-21T18:12:04 BST" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage4 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.validTextLandPage@5b07730f]" started-at="2020-09-21T18:13:47 BST" name="finishoff" finished-at="2020-09-21T18:13:51 BST" duration-ms="4189" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.validTextLandPage -->
+      <class name="loginPage.valnavbar">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.valnavbar@a4b2d8f]" started-at="2020-09-21T18:12:04 BST" name="starter" finished-at="2020-09-21T18:12:19 BST" duration-ms="15351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage3()[pri:0, instance:loginPage.valnavbar@a4b2d8f]" started-at="2020-09-21T18:12:19 BST" name="HPage3" finished-at="2020-09-21T18:12:19 BST" duration-ms="191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage3 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.valnavbar@a4b2d8f]" started-at="2020-09-21T18:13:51 BST" name="finishoff" finished-at="2020-09-21T18:13:52 BST" duration-ms="448" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.valnavbar -->
+      <class name="loginPage.ExtentReportframework">
+        <test-method is-config="true" signature="config()[pri:0, instance:loginPage.ExtentReportframework@1fdfafd2]" started-at="2020-09-21T18:11:47 BST" name="config" finished-at="2020-09-21T18:11:47 BST" duration-ms="320" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- config -->
+        <test-method signature="initialDemo()[pri:0, instance:loginPage.ExtentReportframework@1fdfafd2]" started-at="2020-09-21T18:13:42 BST" name="initialDemo" finished-at="2020-09-21T18:13:42 BST" duration-ms="15" status="FAIL">
+          <exception class="java.lang.IllegalStateException">
+            <message>
+              <![CDATA[The driver executable does not exist: C:\chromedriver.exe]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalStateException: The driver executable does not exist: C:\chromedriver.exe
+at com.google.common.base.Preconditions.checkState(Preconditions.java:585)
+at org.openqa.selenium.remote.service.DriverService.checkExecutable(DriverService.java:146)
+at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:141)
+at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:35)
+at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:159)
+at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:355)
+at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:94)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:123)
+at loginPage.ExtentReportframework.initialDemo(ExtentReportframework.java:48)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:567)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:135)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:821)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1507)
+at org.testng.TestRunner.privateRun(TestRunner.java:767)
+at org.testng.TestRunner.run(TestRunner.java:588)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1214)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1136)
+at org.testng.TestNG.runSuites(TestNG.java:1066)
+at org.testng.TestNG.run(TestNG.java:1034)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalStateException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialDemo -->
+      </class> <!-- loginPage.ExtentReportframework -->
+      <class name="loginPage.homepage">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.homepage@6d304f9d]" started-at="2020-09-21T18:13:21 BST" name="starter" finished-at="2020-09-21T18:13:39 BST" duration-ms="17989" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage2()[pri:0, instance:loginPage.homepage@6d304f9d]" started-at="2020-09-21T18:13:39 BST" name="HPage2" finished-at="2020-09-21T18:13:42 BST" duration-ms="3290" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage2 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.homepage@6d304f9d]" started-at="2020-09-21T18:13:42 BST" name="finishoff" finished-at="2020-09-21T18:13:47 BST" duration-ms="4929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.homepage -->
+      <class name="loginPage.Datadrivenhomepage">
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:19 BST" name="starter" finished-at="2020-09-21T18:12:36 BST" duration-ms="16308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:36 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-21T18:12:39 BST" duration-ms="3303" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[abc@def]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:39 BST" name="finishoff" finished-at="2020-09-21T18:12:39 BST" duration-ms="374" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:39 BST" name="starter" finished-at="2020-09-21T18:12:56 BST" duration-ms="16574" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:56 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-21T18:12:59 BST" duration-ms="3314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ghi@jkl]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:12:59 BST" name="finishoff" finished-at="2020-09-21T18:13:00 BST" duration-ms="582" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+        <test-method is-config="true" signature="starter()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:13:00 BST" name="starter" finished-at="2020-09-21T18:13:18 BST" duration-ms="17704" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starter -->
+        <test-method signature="HPage1(java.lang.String, java.lang.String)[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:13:18 BST" name="HPage1" data-provider="getdata" finished-at="2020-09-21T18:13:21 BST" duration-ms="3087" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mno@pqr]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[789]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HPage1 -->
+        <test-method is-config="true" signature="finishoff()[pri:0, instance:loginPage.Datadrivenhomepage@dcfda20]" started-at="2020-09-21T18:13:21 BST" name="finishoff" finished-at="2020-09-21T18:13:21 BST" duration-ms="408" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishoff -->
+      </class> <!-- loginPage.Datadrivenhomepage -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,16 @@
+18:51:06.048 [TestNG-tests-3] INFO  resources.baseURL - popup closed
+18:51:06.934 [TestNG-tests-3] INFO  resources.baseURL - correct message displayed
+18:51:12.451 [TestNG-tests-1] INFO  resources.baseURL - login clicked
+18:51:13.422 [TestNG-tests-2] INFO  resources.baseURL - usernameHP typed
+18:51:13.434 [TestNG-tests-1] INFO  resources.baseURL - username typed
+18:51:13.623 [TestNG-tests-1] INFO  resources.baseURL - password typed
+18:51:13.665 [TestNG-tests-2] INFO  resources.baseURL - passwordHP typed
+18:51:14.291 [TestNG-tests-1] INFO  resources.baseURL - invalid customer
+18:51:14.383 [TestNG-tests-2] INFO  resources.baseURL - sign in clicked
+18:51:25.555 [TestNG-tests-1] INFO  resources.baseURL - browser opened
+18:51:31.967 [TestNG-tests-1] INFO  resources.baseURL - url clicked
+18:51:39.337 [TestNG-tests-1] INFO  resources.baseURL - popup closed
+18:51:41.188 [TestNG-tests-1] INFO  resources.baseURL - login clicked
+18:51:41.359 [TestNG-tests-1] INFO  resources.baseURL - username typed
+18:51:41.533 [TestNG-tests-1] INFO  resources.baseURL - password typed
+18:51:41.957 [TestNG-tests-1] INFO  resources.baseURL - invalid customer

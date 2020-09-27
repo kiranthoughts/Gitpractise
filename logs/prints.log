@@ -1,0 +1,7 @@
+18:51:46.700 [TestNG-tests-1] INFO  resources.baseURL - browser opened
+18:51:51.661 [TestNG-tests-1] INFO  resources.baseURL - url clicked
+18:52:00.655 [TestNG-tests-1] INFO  resources.baseURL - popup closed
+18:52:02.054 [TestNG-tests-1] INFO  resources.baseURL - login clicked
+18:52:02.238 [TestNG-tests-1] INFO  resources.baseURL - username typed
+18:52:02.394 [TestNG-tests-1] INFO  resources.baseURL - password typed
+18:52:02.779 [TestNG-tests-1] INFO  resources.baseURL - invalid customer
